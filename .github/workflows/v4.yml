@@ -31,7 +31,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: my-artifact
+          name: my-artifact-v4-${{ github.run_number }}
           path: file.txt
 
   deploy:
